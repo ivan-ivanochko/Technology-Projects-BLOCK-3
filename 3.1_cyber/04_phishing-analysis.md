@@ -30,10 +30,14 @@ If you believe this is a mistake, reply with your full name, date of birth, and 
 
 ### Questions
 
-1.  Who appears to be the sender?
-2.  Does the email create urgency or pressure?
-3.  Are there spelling or grammar mistakes?
-4.  Does the link match the organisation domain?
+Who appears to be the sender?
+“Security Team” support@secure-verification-update.com. The name is generic and no real organisation is named. The domain is built from trust words (secure, verification, update) to look official.
+Does the email create urgency or pressure?
+Yes. “Urgent”, “Locked in 24 Hours”, and a threat of “permanent loss of access and data” push the reader to act without thinking.
+Are there spelling or grammar mistakes?
+Almost none, but there are other red flags: the generic greeting “Hello User”, a vague signature, and a request to reply with full name, date of birth and password. No legitimate company asks for a password by email.
+Does the link match the organisation domain?
+No. The sender domain, the displayed link and the real URL are three different domains, and the URL also redirects to a fourth (update-alert-confirmation.example.net).
 
 ### Reflection
 
@@ -51,9 +55,9 @@ Hover over the link in the email (or copy link) and inspect the URL.
 
 ### Questions
 
-1.  Does the displayed link match the actual URL?
-2.  Are there unusual domain names?
+1.  Does the displayed link match the actual URL? No. The displayed text is http://secure-update-verification.com/login-confirmation, but the real destination is secure-update.verify-account-check.example.com/....
+2.  Are there unusual domain names? Yes: multiple different domains, long hyphenated names with words like “secure” and “verify”, misleading subdomains (the real domain is example.com), unencrypted http://, and a suspicious tail with sessionid, token and a continue= redirect.
 
 ### Reflection
 
-Explain why users should always inspect links before clicking them.
+Displayed link text can hide the real destination, which may be a fake login page or a malware download. Checking takes seconds, while a single click can cost you your account. Instead of clicking, go to the official site by typing its address yourself.
