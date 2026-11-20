@@ -6,7 +6,10 @@ Run:
 
     cat /etc/passwd
 
-### Screenshot
+<img width="4284" height="5712" alt="tempImagearuq8d" src="https://github.com/user-attachments/assets/96338404-7383-430f-a18a-32ba8598708a" />
+
+
+
 
 (Add screenshot here)
 
@@ -28,7 +31,12 @@ Run:
 
     ps aux
 
-### Screenshot
+<img width="4284" height="5712" alt="tempImagepyKxXF" src="https://github.com/user-attachments/assets/1e33dc55-845d-448a-9578-2e8aeb1894ab" />
+
+<img width="4284" height="5712" alt="tempImageLQ87od" src="https://github.com/user-attachments/assets/ae15fe11-9e2d-4a4b-84b8-88fa41c1e942" />
+
+
+
 
 (Add screenshot here)
 
@@ -50,7 +58,7 @@ Run:
 
     ss -tuln
 
-### Screenshot
+<img width="5712" height="4284" alt="IMG_5190" src="https://github.com/user-attachments/assets/49a7e4bc-b67e-4de3-8eb6-eb05a72e0463" />
 
 (Add screenshot here)
 
