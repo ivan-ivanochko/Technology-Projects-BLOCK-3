@@ -41,8 +41,7 @@ No. The sender domain, the displayed link and the real URL are three different d
 
 ### Reflection
 
-Explain why attackers use phishing emails.
-
+Attackers use phishing emails because they are cheap, scalable and effective. One message can be sent to millions of people, and only a few need to respond for it to pay off. Phishing targets people instead of technical defences: fear, urgency and trust in a “security team” make users act without thinking. The goal is usually to steal passwords, personal data and money, take over accounts, or spread malware.
 ------------------------------------------------------------------------
 
 ## Task 2 --- Link Inspection
