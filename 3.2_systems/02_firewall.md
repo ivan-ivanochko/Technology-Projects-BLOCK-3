@@ -4,11 +4,12 @@
 
 Run:
 
-    sudo apt install ufw
-
 ### Screenshot
 
-(Add screenshot)
+
+<img width="5712" height="4284" alt="IMG_5353" src="https://github.com/user-attachments/assets/c9a00c90-de96-43c6-96cd-4a6c037ee5d2" />
+
+
 
 ------------------------------------------------------------------------
 
@@ -16,11 +17,11 @@ Run:
 
 Run:
 
-    sudo ufw enable
-
 ### Screenshot
 
-(Add screenshot)
+
+<img width="5712" height="4284" alt="IMG_5354" src="https://github.com/user-attachments/assets/73a584e0-455a-491a-acce-8a596b1b219b" />
+
 
 ### Questions
 
@@ -38,7 +39,7 @@ Run:
 
 ### Screenshot
 
-(Add screenshot)
+<img width="5712" height="4284" alt="IMG_5354" src="https://github.com/user-attachments/assets/a6623ff9-4626-4e8d-961e-5b0c6d4e5ee8" />
 
 ### Questions
 
