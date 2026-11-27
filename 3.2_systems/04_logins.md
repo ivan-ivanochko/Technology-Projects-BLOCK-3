@@ -29,6 +29,4 @@ last
 
 
 ## Deliverables
-Include screenshots of:
-- authentication logs
-- failed login search results
+<img width="5712" height="4284" alt="IMG_5360" src="https://github.com/user-attachments/assets/ec19fde3-0bc4-42ef-b8b7-5716fca471b6" />
