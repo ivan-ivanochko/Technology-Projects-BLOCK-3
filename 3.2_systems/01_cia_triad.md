@@ -29,7 +29,11 @@ Understand the **Confidentiality, Integrity and Availability (CIA)** principles 
 
 **Questions**
 - Who can read this file?
+owner or root administrator 
+
+
 - How does file permission protect confidentiality?
+They stop other users and groups from reading or changing the file.
 
 ## Part 2 – Integrity
 
@@ -51,7 +55,9 @@ Understand the **Confidentiality, Integrity and Availability (CIA)** principles 
 
 ** Questions**
 - Did the hash change?
+t turns data into a fixed-length "fingerprint". The same input always gives the same output, and any change gives a different one.
 - Why do security systems use hashing?
+  o detect tampering, verify file integrity and store passwords securely.
 
 
 # Part 3 – Availability
@@ -68,12 +74,41 @@ Understand the **Confidentiality, Integrity and Availability (CIA)** principles 
 
 **Questions**
 - Why is system uptime important?
+  Users and services depend on the system being available. High uptime means reliability.
 - What happens if a system is unavailable?
+  Services stop, which can mean lost productivity, lost revenue, damaged reputation and possibly data loss.
 
 ## Deliverables
 Include:
-- Screenshot of file permissions
-- Screenshot of hash results
+SCREENSHOTS:
+
+<img width="5712" height="4284" alt="IMG_5346" src="https://github.com/user-attachments/assets/93f0b580-30f0-460f-b8b8-683358640673" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - Answers to questions
 - Reflection
-    >Explain how this activity demonstrated the CIA triad.
+    >This activity demonstrated the three principles of the CIA triad through practical tasks on the Raspberry Pi.
+
+Confidentiality. I created a file called secrets.txt and restricted access with chmod 600. This gives read and write permission only to the file owner and none to the group or other users. The ls -l output confirmed this (-rw-------). It showed me that confidentiality means only authorised people can access sensitive information, and that file permissions are a basic way of enforcing this.
+
+Integrity. I generated a SHA-256 hash of the file, changed its contents and hashed it again. The hash changed completely, even though the edit was small. This showed me that hashing can detect unauthorised or accidental modification, so integrity means data stays accurate and unaltered. Systems use this to verify downloads, passwords and logs.
+
+Availability. Using uptime and top, I checked how long the system had been running and which processes were using resources. This showed that a system must be running and accessible when users need it. Monitoring helps detect problems such as overloaded CPU or memory before they cause downtime.
+
+Conclusion. The three principles work together. A system that is confidential but unavailable is useless, and data that is available but has been tampered with cannot be trusted. Good security needs a balance of all three.
