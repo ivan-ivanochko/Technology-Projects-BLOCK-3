@@ -8,7 +8,7 @@ Run:
 
 ### Screenshot
 
-(Add screenshot)
+<img width="5712" height="4284" alt="IMG_5355" src="https://github.com/user-attachments/assets/e13477ca-6571-42cc-b238-fb29ea5f1266" />
 
 ------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Let the capture run for about 20 seconds.
 
 ### Screenshot
 
-(Add screenshot)
+<img width="5712" height="4284" alt="IMG_5356" src="https://github.com/user-attachments/assets/38153cdc-9222-4d6a-9f98-f4db9fcafb7a" />
 
 ### Questions
 
